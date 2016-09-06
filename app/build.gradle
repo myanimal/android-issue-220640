@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        // Comment out this line to get build working (or change to version 3.0.0)
+        classpath 'com.google.gms:google-services:2.1.2'
+    }
+}
+
 apply plugin: 'com.android.application'
 apply from: 'jacoco.gradle'
 
